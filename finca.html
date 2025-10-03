@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Finca El Paraíso</title>
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+
+  <style>
+    /* Fondo degradado oscuro sobre el carrusel */
+    .overlay {
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.4) 100%);
+    }
+  </style>
+</head>
+<style>
+  .font-merriweather {
+    font-family: 'Merriweather', serif;
+  }
+
+  .font-roboto {
+    font-family: 'Roboto', sans-serif;
+  }
+
+  /* 🔹 Ajuste para quitar espacio extra en el mini carrusel */
+  .miniSwiper .swiper-slide {
+    width: auto !important;
+    padding-right: 10px;
+  }
+</style>
+
+<body class="bg-[#0c0f09] text-white font-sans">
+
+  <!-- HEADER -->
+  <header class="absolute top-0 left-0 w-full flex justify-between items-center px-6 py-0.5 bg-[#0c0f09] z-20">
+    <!-- Logo -->
+    <div class="w-12 h-12 order-2">
+      <img src="logo.svg" alt="Logo" class="w-full h-full">
+    </div>
+
+    <!-- <-- -->
+    <button onclick="history.back()" class="md:hidden text-4xl text-[#C5C8BA]">
+      <span class="material-symbols-outlined">arrow_back</span>
+    </button>
+
+
+  </header>
+
+  <!-- HERO con CARRUSEL -->
+  <section class="relative w-full h-[70vh] flex items-center justify-center pt-5">
+    <div
+      class="bg-[#0c0f09] swiper mySwiper w-full h-full max-w-4xl rounded-3xl overflow-hidden border- border-[#0c0f09] shadow-xl mt-16">
+
+      <!-- Texto superpuesto -->
+      <div class="absolute top-4 left-4 bg-black/50 text-[#A5EC60] px-4 py-2 rounded-lg text-lg font-merriweather z-10">
+        🌿 Finca Nature
+      </div>
+
+      <!-- Carrusel -->
+      <div class="swiper-wrapper">
+        <div class="swiper-slide relative">
+          <img src="fotos_fincas\WhatsApp Image 2025-09-23 at 11.37.50 AM (1).jpeg" class="w-full h-full object-cover"
+            alt="Finca 1">
+          <div class="absolute inset-0 overlay"></div>
+        </div>
+        <div class="swiper-slide relative">
+          <img src="fotos_fincas\WhatsApp Image 2025-09-23 at 11.37.50 AM (2).jpeg" class="w-full h-full object-cover"
+            alt="Finca 2">
+          <div class="absolute inset-0 overlay"></div>
+        </div>
+        <div class="swiper-slide relative">
+          <img src="fotos_fincas\WhatsApp Image 2025-09-23 at 11.37.50 AM.jpeg" class="w-full h-full object-cover"
+            alt="Finca 3">
+          <div class="absolute inset-0 overlay"></div>
+        </div>
+      </div>
+
+      <!-- Paginacion (los punteros) -->
+      <div class="swiper-pagination"></div>
+    </div>
+  </section>
+
+  <!-- Mini Carrusel de Fotos -->
+  <section class="bg-[#0c0f09] max-w-4xl mx-auto px-4 mt-8">
+    <h2 class="text-[#A5EC60] text-2xl font-merriweather font-bold mb-4 mt-10">Gallery</h2>
+    <div class="swiper miniSwiper !p-0">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="fotos_fincas/WhatsApp Image 2025-09-23 at 11.37.50 AM (1).jpeg"
+            class="w-20 h-20 rounded-xl border-2 border-[#F8F9FA] object-cover cursor-pointer" onclick="expandImage(this)">
+        </div>
+        <div class="swiper-slide">
+          <img src="fotos_fincas/WhatsApp Image 2025-09-23 at 11.37.50 AM (2).jpeg"
+            class="w-20 h-20 rounded-xl border-2 border-[#F8F9FA] object-cover cursor-pointer" onclick="expandImage(this)">
+        </div>
+        <div class="swiper-slide">
+          <img src="fotos_fincas/WhatsApp Image 2025-09-23 at 11.37.50 AM.jpeg"
+            class="w-20 h-20 rounded-xl border-2 border-[#F8F9FA] object-cover cursor-pointer" onclick="expandImage(this)">
+        </div>
+        <div class="swiper-slide">
+          <img src="fotos_fincas\WhatsApp Image 2025-09-23 at 11.37.50 AM (1).jpeg"
+            class="w-20 h-20 rounded-xl border-2 border-[#F8F9FA] object-cover cursor-pointer" onclick="expandImage(this)">
+        </div>
+        <div class="swiper-slide">
+          <img src="fotos_fincas\WhatsApp Image 2025-09-23 at 11.37.50 AM.jpeg"
+            class="w-20 h-20 rounded-xl border-2 border-[#F8F9FA] object-cover cursor-pointer" onclick="expandImage(this)">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Modal -->
+  <div id="imageModal" class="hidden fixed inset-0 bg-black/80 flex items-center justify-center z-50">
+    <img id="modalImage" class="max-w-full max-h-full rounded-2xl">
+  </div>
+
+
+
+
+  <!-- DASHBOARD de información  -->
+  <section class="bg-[#0c0f09] py-10">
+    <div class="max-w-4xl mx-auto grid grid-cols-2 gap-6 justify-center">
+
+      <!-- Precio por noche (izquierda) -->
+      <div
+        class="bg-[#000A04] rounded-2xl border-2 border-[#0c0f09] shadow-lg p-6 flex flex-col items-center justify-center">
+        <h3 class="text-[#A5EC60] text-xl font-merriweather mb-4">Precio por noche</h3>
+        <p class="text-[#e2e3d8] text-2xl font-roboto">COP 250.000</p>
+      </div>
+
+      <!-- Capacidad (derecha) -->
+      <div
+        class="bg-[#000A04] rounded-2xl border-2 border-[#0c0f09] shadow-lg p-6 flex flex-col items-center justify-center">
+        <h3 class="text-[#A5EC60] text-xl font-merriweather mb-4">👥 Capacidad</h3>
+        <p class="text-[#e2e3d8] text-2xl font-roboto">8 Personas</p>
+      </div>
+
+      <!-- Características -->
+      <div
+        class="bg-[#000A04] rounded-2xl border-2 border-[#0c0f09] shadow-lg p-6 flex flex-col items-center justify-center">
+        <h3 class="text-[#A5EC60] text-xl font-merriweather mb-4">🌳 Características</h3>
+        <ul class="text-[#e2e3d8] text-base space-y-2 text-left font-roboto">
+          <li>Piscina</li>
+          <li>Zona BBQ</li>
+          <li>WiFi</li>
+          <li>Jardín Amplio</li>
+        </ul>
+      </div>
+
+      <!-- Ubicación -->
+      <div
+        class="bg-[#000A04] rounded-2xl border-2 border-[#0c0f09] shadow-lg p-6 flex flex-col items-center justify-center">
+        <h3 class="text-[#A5EC60] text-xl font-merriweather mb-4">📍 Ubicación</h3>
+        <p class="text-[#e2e3d8] text-base text-center font-roboto">
+          Guatapé, Antioquia <br>
+          Cerca del embalse
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- DESCRIPCIÓN DE LA FINCA -->
+  <section class="bg-[#1a1c16] max-w-4xl mx-auto p-8 text-center">
+    <h2 class="text-[#A5EC60] text-3xl font-merriweather mb-4">Descripción</h2>
+    <p class="bg-[#1a1c16] text-[#ffffff] leading-relaxed font-roboto">
+      Disfruta de una experiencia única rodeado de naturaleza.
+      Esta finca cuenta con amplias zonas verdes, piscina privada y todas las comodidades para que vivas días
+      inolvidables
+      junto a tu familia o amigos. Perfecta para desconectarte de la ciudad y vivir momentos de paz y tranquilidad.
+    </p>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-[#0c0f09]-800 text-[#A5EC60] text-center p-4 mt-8">
+    © 2025 MiFincaIdeal. Todos los derechos reservados.
+  </footer>
+
+
+  <!-- SwiperJS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper(".mySwiper", {
+      loop: true,
+      autoplay: {
+        delay: 3000, // Cambia de imagen cada 3 segundos
+        disableOnInteraction: false, // No se detiene si el usuario toca el carrusel
+      },
+      pagination: { el: ".swiper-pagination", clickable: true }
+    });
+    //Mini carrusel
+    const miniSwiper = new Swiper(".miniSwiper", {
+      slidesPerView: 'auto',
+      spaceBetween: 10,
+      freeMode: true,
+    });
+
+    // Modal
+    function expandImage(img) {
+      document.getElementById('modalImage').src = img.src;
+      document.getElementById('imageModal').classList.remove('hidden');
+    }
+
+    document.getElementById('imageModal').addEventListener('click', () => {
+      document.getElementById('imageModal').classList.add('hidden');
+    });
+
+
+  </script>
+</body>
+
+</html>
