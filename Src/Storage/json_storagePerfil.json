@@ -1,0 +1,483 @@
+{
+  "1":{
+    "nombre": "Finca La Bonita",
+    "precioPorNoche": 250000,
+    "moneda": "COP",
+    "capacidad": 8,
+    "ubicacion": {
+      "ciudad": "Barbosa",
+      "departamento": "Antioquia",
+      "descripcion": "Cerca del embalse"
+    },
+    "caracteristicas": [
+      "Piscina",
+      "Zona BBQ",
+      "WiFi",
+      "Jardín Amplio"
+    ],
+    "descripcion": "Disfruta de una experiencia única...",
+    "fotosPrincipales": [
+      {
+        "id": 1,
+        "src": "/static/Fotos/fincas/Barbosa/Finca La Bonita/prin1.jpeg",
+        "alt": "Finca 1"
+      },
+      {
+        "id": 2,
+        "src": "/static/Fotos/fincas/Barbosa/Finca La Bonita/prin2.jpeg",
+        "alt": "Finca 1"
+      },{
+        "id": 3,
+        "src": "/static/Fotos/fincas/Barbosa/Finca La Bonita/prin3.jpeg",
+        "alt": "Finca 1"
+      }
+    ],
+    "fotosGallery": [
+      {
+        "id": 1,
+        "src": "/static/Fotos/fincas/Barbosa/Finca La Bonita/CODIGO 17 (3).jpeg",
+        "alt": "Finca 1"
+      },
+      {
+        "id": 2,
+        "src": "/static/Fotos/fincas/Barbosa/Finca La Bonita/CODIGO 17 (4).jpeg",
+        "alt": "Finca 1"
+      },{
+        "id": 3,
+        "src": "/static/Fotos/fincas/Barbosa/Finca La Bonita/CODIGO 17 (5).jpeg",
+        "alt": "Finca 1"
+      },
+      {
+        "id": 4,
+        "src": "/static/Fotos/fincas/Barbosa/Finca La Bonita/CODIGO 17 (6).jpeg",
+        "alt": "Finca 1"
+      },
+      {
+        "id": 5,
+        "src": "/static/Fotos/fincas/Barbosa/Finca La Bonita/CODIGO 17 (7).jpeg",
+        "alt": "Finca 1"
+      }
+    ]
+  },
+  "2": {
+    "nombre": "VILLA ELENA",
+    "precioPorNoche": 250000,
+    "moneda": "COP",
+    "capacidad": 8,
+    "ubicacion": {
+      "ciudad": "Girardota",
+      "departamento": "Antioquia",
+      "descripcion": "Cerca del embalse"
+    },
+    "caracteristicas": [
+      "Piscina",
+      "Zona BBQ",
+      "WiFi",
+      "Jardín Amplio"
+    ],
+    "descripcion": "Disfruta de una experiencia única...",
+    "fotosPrincipales": [
+      {
+        "id": 1,
+        "src": "/static/Fotos/fincas/Girardo/villa elena/home1.jpeg",
+        "alt": "Finca 1"
+      },
+      {
+        "id": 2,
+        "src": "/static/Fotos/fincas/Girardo/villa elena/home2.jpeg",
+        "alt": "Finca 1"
+      },{
+        "id": 3,
+        "src": "/static/Fotos/fincas/Girardo/villa elena/home3.jpeg",
+        "alt": "Finca 1"
+      }
+    ],
+    "fotosGallery": [
+      {
+        "id": 1,
+        "src": "/static/Fotos/fincas/Girardo/villa elena/CODIGO 18 (1).jpeg",
+        "alt": "Finca 1"
+      },
+      {
+        "id": 2,
+        "src": "/static/Fotos/fincas/Girardo/villa elena/CODIGO 18 (2).jpeg",
+        "alt": "Finca 1"
+      },{
+        "id": 3,
+        "src": "/static/Fotos/fincas/Girardo/villa elena/CODIGO 18 (3).jpeg",
+        "alt": "Finca 1"
+      },
+      {
+        "id": 4,
+        "src": "/static/Fotos/fincas/Girardo/villa elena/CODIGO 18 (4).jpeg",
+        "alt": "Finca 1"
+      },
+      {
+        "id": 5,
+        "src": "/static/Fotos/fincas/Girardo/villa elena/CODIGO 18.jpeg",
+        "alt": "Finca 1"
+      }
+    ]
+  },
+  "3": {
+    "nombre": "LA PERLA",
+    "precioPorNoche": 250000,
+    "moneda": "COP",
+    "capacidad": 8,
+    "ubicacion": {
+      "ciudad": "Guatape",
+      "departamento": "Antioquia",
+      "descripcion": "Cerca del embalse"
+    },
+    "caracteristicas": [
+      "Piscina",
+      "Zona BBQ",
+      "WiFi",
+      "Jardín Amplio"
+    ],
+    "descripcion": "Disfruta de una experiencia única...",
+    "fotosPrincipales": [
+      {
+        "id": 1,
+        "src": "/static/Fotos/fincas/Guatape/LA PERLA/home1.jpeg",
+        "alt": "Finca 1"
+      },
+      {
+        "id": 2,
+        "src": "/static/Fotos/fincas/Guatape/LA PERLA/home2.jpeg",
+        "alt": "Finca 1"
+      },{
+        "id": 3,
+        "src": "/static/Fotos/fincas/Guatape/LA PERLA/home3.jpeg",
+        "alt": "Finca 1"
+      }
+    ],
+    "fotosGallery": [
+      {
+        "id": 1,
+        "src": "/static/Fotos/fincas/Guatape/LA PERLA/WhatsApp Image 2025-11-07 at 5.27.48 PM (2).jpeg",
+        "alt": "Finca 1"
+      },
+      {
+        "id": 2,
+        "src": "/static/Fotos/fincas/Guatape/LA PERLA/WhatsApp Image 2025-11-07 at 5.27.52 PM (2).jpeg",
+        "alt": "Finca 1"
+      },{
+        "id": 3,
+        "src": "/static/Fotos/fincas/Guatape/LA PERLA/WhatsApp Image 2025-11-07 at 5.27.53 PM.jpeg",
+        "alt": "Finca 1"
+      },
+      {
+        "id": 4,
+        "src": "/static/Fotos/fincas/Guatape/LA PERLA/WhatsApp Image 2025-11-07 at 5.27.54 PM (2).jpeg",
+        "alt": "Finca 1"
+      },
+      {
+        "id": 5,
+        "src": "/static/Fotos/fincas/Guatape/LA PERLA/WhatsApp Image 2025-11-07 at 5.27.56 PM (2).jpeg",
+        "alt": "Finca 1"
+      }
+    ]
+  },
+  "4": {
+    "nombre": "LEYENDA DE SAN JOSE",
+    "precioPorNoche": 250000,
+    "moneda": "COP",
+    "capacidad": 8,
+    "ubicacion": {
+      "ciudad": "San jeronimo",
+      "departamento": "Antioquia",
+      "descripcion": "Cerca del embalse"
+    },
+    "caracteristicas": [
+      "Piscina",
+      "Zona BBQ",
+      "WiFi",
+      "Jardín Amplio"
+    ],
+    "descripcion": "Disfruta de una experiencia única...",
+    "fotosPrincipales": [
+      {
+        "id": 1,
+        "src": "/static/Fotos/fincas/San jeronimo/Villa paulina/home1.jpeg",
+        "alt": "Finca 1"
+      },
+      {
+        "id": 2,
+        "src": "/static/Fotos/fincas/San jeronimo/Villa paulina/home2.jpeg",
+        "alt": "Finca 1"
+      },{
+        "id": 3,
+        "src": "/static/Fotos/fincas/San jeronimo/Villa paulina/home2.jpeg",
+        "alt": "Finca 1"
+      }
+    ],
+    "fotosGallery": [
+      {
+        "id": 1,
+        "src": "/static/Fotos/fincas/San jeronimo/Villa paulina/CODIGO 12 (1).jpeg",
+        "alt": "Finca 1"
+      },
+      {
+        "id": 2,
+        "src": "/static/Fotos/fincas/San jeronimo/Villa paulina/CODIGO 12 (2).jpeg",
+        "alt": "Finca 1"
+      },{
+        "id": 3,
+        "src": "/static/Fotos/fincas/San jeronimo/Villa paulina/CODIGO 12 (3).jpeg",
+        "alt": "Finca 1"
+      },
+      {
+        "id": 4,
+        "src": "/static/Fotos/fincas/San jeronimo/Villa paulina/CODIGO 12 (4).jpeg",
+        "alt": "Finca 1"
+      },
+      {
+        "id": 5,
+        "src": "/static/Fotos/fincas/San jeronimo/Villa paulina/CODIGO 12.jpeg",
+        "alt": "Finca 1"
+      }
+    ]
+  },
+  "5": {
+    "nombre": "VILLA PAULINA",
+    "precioPorNoche": 250000,
+    "moneda": "COP",
+    "capacidad": 8,
+    "ubicacion": {
+      "ciudad": "Ebejico",
+      "departamento": "Antioquia",
+      "descripcion": "Cerca del embalse"
+    },
+    "caracteristicas": [
+      "Piscina",
+      "Zona BBQ",
+      "WiFi",
+      "Jardín Amplio"
+    ],
+    "descripcion": "Disfruta de una experiencia única...",
+    "fotosPrincipales": [
+      {
+        "id": 1,
+        "src": "/static/Fotos/fincas/Ebejico/villa paulina/home3.jpeg",
+        "alt": "Finca 1"
+      },
+      {
+        "id": 2,
+        "src": "/static/Fotos/fincas/Ebejico/villa paulina/home2.jpeg",
+        "alt": "Finca 1"
+      },{
+        "id": 3,
+        "src": "/static/Fotos/fincas/Ebejico/villa paulina/home1.jpeg",
+        "alt": "Finca 1"
+      }
+    ],
+    "fotosGallery": [
+      {
+        "id": 1,
+        "src": "/static/Fotos/fincas/Ebejico/villa paulina/CODIGO 5 (1).jpeg",
+        "alt": "Finca 1"
+      },
+      {
+        "id": 2,
+        "src": "/static/Fotos/fincas/Ebejico/villa paulina/CODIGO 5 (2).jpeg",
+        "alt": "Finca 1"
+      },{
+        "id": 3,
+        "src": "/static/Fotos/fincas/Ebejico/villa paulina/CODIGO 5 (3).jpeg",
+        "alt": "Finca 1"
+      },
+      {
+        "id": 4,
+        "src": "/static/Fotos/fincas/Ebejico/villa paulina/CODIGO 5 (4).jpeg",
+        "alt": "Finca 1"
+      },
+      {
+        "id": 5,
+        "src": "/static/Fotos/fincas/Ebejico/villa paulina/CODIGO 5.jpeg",
+        "alt": "Finca 1"
+      }
+    ]
+  },
+  "6": {
+    "nombre": "FINCA SANTA FE",
+    "precioPorNoche": 250000,
+    "moneda": "COP",
+    "capacidad": 8,
+    "ubicacion": {
+      "ciudad": "Santa Fe",
+      "departamento": "Antioquia",
+      "descripcion": "Cerca del embalse"
+    },
+    "caracteristicas": [
+      "Piscina",
+      "Zona BBQ",
+      "WiFi",
+      "Jardín Amplio"
+    ],
+    "descripcion": "Disfruta de una experiencia única...",
+    "fotosPrincipales": [
+      {
+        "id": 1,
+        "src": "/static/Fotos/fincas/Santa fe/finca santa fe/home1.jpeg",
+        "alt": "Finca 1"
+      },
+      {
+        "id": 2,
+        "src": "/static/Fotos/fincas/Santa fe/finca santa fe/home2.jpeg",
+        "alt": "Finca 1"
+      },{
+        "id": 3,
+        "src": "/static/Fotos/fincas/Santa fe/finca santa fe/home3.jpeg",
+        "alt": "Finca 1"
+      }
+    ],
+    "fotosGallery": [
+      {
+        "id": 1,
+        "src": "/static/Fotos/fincas/Santa fe/finca santa fe/Gallery1.jpeg",
+        "alt": "Finca 1"
+      },
+      {
+        "id": 2,
+        "src": "/static/Fotos/fincas/Santa fe/finca santa fe/Gallery2.jpeg",
+        "alt": "Finca 1"
+      },{
+        "id": 3,
+        "src": "/static/Fotos/fincas/Santa fe/finca santa fe/Gallery3.jpeg",
+        "alt": "Finca 1"
+      },
+      {
+        "id": 4,
+        "src": "/static/Fotos/fincas/Santa fe/finca santa fe/Gallery4.jpeg",
+        "alt": "Finca 1"
+      },
+      {
+        "id": 5,
+        "src": "/static/Fotos/fincas/Santa fe/finca santa fe/Gallery5.jpeg",
+        "alt": "Finca 1"
+      }
+    ]
+  },
+  "7": {
+    "nombre": "Finca El Paraíso",
+    "precioPorNoche": 250000,
+    "moneda": "COP",
+    "capacidad": 8,
+    "ubicacion": {
+      "ciudad": "Guatapé",
+      "departamento": "Antioquia",
+      "descripcion": "Cerca del embalse"
+    },
+    "caracteristicas": [
+      "Piscina",
+      "Zona BBQ",
+      "WiFi",
+      "Jardín Amplio"
+    ],
+    "descripcion": "Disfruta de una experiencia única...",
+    "fotosPrincipales": [
+      {
+        "id": 1,
+        "src": "/static/Fotos/fincas/Sopetran/La sopetran/home1.jpeg",
+        "alt": "Finca 1"
+      },
+      {
+        "id": 2,
+        "src": "/static/Fotos/fincas/Sopetran/La sopetran/home2.jpeg",
+        "alt": "Finca 1"
+      },{
+        "id": 3,
+        "src": "/static/Fotos/fincas/Sopetran/La sopetran/home3.jpeg",
+        "alt": "Finca 1"
+      }
+    ],
+    "fotosGallery": [
+      {
+        "id": 1,
+        "src": "/static/Fotos/fincas/Sopetran/La sopetran/WhatsApp Image 2025-11-12 at 5.16.15 PM (1).jpeg",
+        "alt": "Finca 1"
+      },
+      {
+        "id": 2,
+        "src": "/static/Fotos/fincas/Sopetran/La sopetran/WhatsApp Image 2025-11-12 at 5.16.16 PM (2).jpeg",
+        "alt": "Finca 1"
+      },{
+        "id": 3,
+        "src": "/static/Fotos/fincas/Sopetran/La sopetran/WhatsApp Image 2025-11-12 at 5.16.17 PM (3).jpeg",
+        "alt": "Finca 1"
+      },
+      {
+        "id": 4,
+        "src": "/static/Fotos/fincas/Sopetran/La sopetran/WhatsApp Image 2025-11-12 at 5.16.18 PM (4).jpeg",
+        "alt": "Finca 1"
+      },
+      {
+        "id": 5,
+        "src": "/static/Fotos/fincas/Sopetran/La sopetran/WhatsApp Image 2025-11-12 at 5.16.18 PM (5).jpeg",
+        "alt": "Finca 1"
+      }
+    ]
+  },
+  "8": {
+    "nombre": "FINCA LA COCORNA",
+    "precioPorNoche": 250000,
+    "moneda": "COP",
+    "capacidad": 8,
+    "ubicacion": {
+      "ciudad": "Cocorna",
+      "departamento": "Antioquia",
+      "descripcion": "Cerca del embalse"
+    },
+    "caracteristicas": [
+      "Piscina",
+      "Zona BBQ",
+      "WiFi",
+      "Jardín Amplio"
+    ],
+    "descripcion": "Disfruta de una experiencia única...",
+    "fotosPrincipales": [
+      {
+        "id": 1,
+        "src": "/static/Fotos/fincas/cocorna/finca la cocorna/home1.jpeg",
+        "alt": "Finca 1"
+      },
+      {
+        "id": 2,
+        "src": "/static/Fotos/fincas/cocorna/finca la cocorna/home2.jpeg",
+        "alt": "Finca 1"
+      },{
+        "id": 3,
+        "src": "/static/Fotos/fincas/cocorna/finca la cocorna/home3.jpeg",
+        "alt": "Finca 1"
+      }
+    ],
+    "fotosGallery": [
+      {
+        "id": 1,
+        "src": "/static/Fotos/fincas/cocorna/finca la cocorna/Gallery1.jpeg",
+        "alt": "Finca 1"
+      },
+      {
+        "id": 2,
+        "src": "/static/Fotos/fincas/cocorna/finca la cocorna/Gallery2.jpeg",
+        "alt": "Finca 1"
+      },{
+        "id": 3,
+        "src": "/static/Fotos/fincas/cocorna/finca la cocorna/Gallery3.jpeg",
+        "alt": "Finca 1"
+      },
+      {
+        "id": 4,
+        "src": "/static/Fotos/fincas/cocorna/finca la cocorna/Gallery4.jpeg",
+        "alt": "Finca 1"
+      },
+      {
+        "id": 5,
+        "src": "/static/Fotos/fincas/cocorna/finca la cocorna/Gallery1.jpeg",
+        "alt": "Finca 1"
+      }
+    ]
+  }
+}
+

@@ -1,0 +1,308 @@
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MiFincaIdeal - Encuentra tu Finca Perfecta</title>
+    
+    <!-- Meta Tags SEO -->
+    <meta name="description" content="Encuentra la finca perfecta para tus vacaciones. Alquiler de fincas en Colombia con piscina, naturaleza y todas las comodidades.">
+    <meta name="keywords" content="fincas, alquiler, vacaciones, Colombia, naturaleza, piscina">
+    
+    <!-- Preload crítico -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" as="image" href="fotos_fincas/WhatsApp Image 2025-09-23 at 11.37.50 AM (1).jpeg">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    
+    <!-- AOS - Animate On Scroll -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Roboto:wght@400;700&family=Material+Symbols+Outlined&display=swap" rel="stylesheet" />
+
+    <style>
+        .font-merriweather {
+            font-family: 'Merriweather', serif;
+        }
+
+        .font-roboto {
+            font-family: 'Roboto', sans-serif;
+        }
+
+        /* Overlay oscuro */
+        .overlay {
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.6) 100%);
+        }
+
+        /* Video con lazy loading */
+        video {
+            object-fit: cover;
+        }
+
+        /* Fallback image cuando video no carga */
+        .video-fallback {
+            background-image: url('fotos_fincas/WhatsApp Image 2025-09-23 at 11.37.50 AM (1).jpeg');
+            background-size: cover;
+            background-position: center;
+        }
+
+        /* Botón flotante de WhatsApp */
+        .whatsapp-float {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background-color: #25D366;
+            color: white;
+            border-radius: 50%;
+            width: 60px;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 4px 12px rgba(37, 211, 102, 0.5);
+            z-index: 1000;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .whatsapp-float:hover {
+            transform: scale(1.1);
+            box-shadow: 0 6px 20px rgba(37, 211, 102, 0.7);
+        }
+
+        .whatsapp-float svg {
+            width: 35px;
+            height: 35px;
+            fill: white;
+        }
+
+        @keyframes pulse {
+            0% {
+                box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.7);
+            }
+            70% {
+                box-shadow: 0 0 0 15px rgba(37, 211, 102, 0);
+            }
+            100% {
+                box-shadow: 0 0 0 0 rgba(37, 211, 102, 0);
+            }
+        }
+
+        .whatsapp-float {
+            animation: pulse 2s infinite;
+        }
+
+        /* Cards de fincas destacadas */
+        .property-card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .property-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(165, 236, 96, 0.2);
+        }
+
+        /* Swiper customizado */
+        .featured-swiper .swiper-slide {
+            height: auto;
+        }
+
+        .swiper-pagination-bullet {
+            background: #A5EC60 !important;
+        }
+    </style>
+</head>
+
+<body class="m-0 p-0 overflow-x-hidden bg-[#0c0f09]">
+
+    <!-- HERO SECTION con Video -->
+    <section class="relative w-full h-[70vh] flex items-center justify-center mt-0">
+        <!-- Video con lazy loading y fallback -->
+        <div class="video-fallback absolute top-0 left-0 w-full h-full z-10">
+            <video 
+                autoplay 
+                muted 
+                loop 
+                playsinline
+                loading="lazy"
+                class="w-full h-full object-cover"
+                onloadeddata="this.parentElement.classList.remove('video-fallback')"
+                onerror="this.style.display='none'">
+                <source src="https://assets.pinterest.com/ext/embed.html?id=320248223523875958" type="video/mp4">
+                Tu navegador no soporta video.
+            </video>
+        </div>
+
+        <!-- Capa oscura -->
+        <div class="absolute inset-0 overlay z-20"></div>
+
+        <!-- Logo e idioma a la derecha -->
+        <div class="absolute top-2 right-4 flex items-center space-x-2 z-30">
+            <button 
+                    onclick="changeLanguage()"
+                    class="flex items-center justify-center p-1 bg-transparent rounded hover:bg-white/10 transition-all"
+                    aria-label="Cambiar idioma">
+                    <span class="material-symbols-outlined text-2xl text-[#C5C8BA]">language</span>
+            </button>
+            <!-- Si tienes logo.svg en tu carpeta, se mostrará, si no, este es el fallback -->
+            <img src="logo.svg" alt="MiFincaIdeal Logo" class="w-14 h-14" 
+                onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+            <!-- Fallback si logo.svg no existe -->
+            <div class="w-12 h-12 bg-[#A5EC60] rounded-full hidden items-center justify-center font-merriweather font-bold text-black text-xl">
+                MF
+            </div>
+        </div>
+
+        <!-- Texto central opcional -->
+        <div class="relative z-30 text-center px-4" data-aos="fade-up">
+            <h1 class="text-white text-5xl md:text-6xl font-merriweather font-bold mb-4 drop-shadow-lg" data-lang="heroTitle">
+                Tu Escape Perfecto
+            </h1>
+            <p class="text-white/90 text-xl md:text-2xl font-roboto drop-shadow-md" data-lang="heroSubtitle">
+                Naturaleza • Confort • Exclusividad
+            </p>
+        </div>
+    </section>
+
+    <!-- SECCIÓN DE BIENVENIDA -->
+    <section class="bg-[#0c0f09] text-center py-16 px-6">
+        <h2 class="text-[#A5EC60] text-3xl md:text-4xl font-merriweather mb-4" data-aos="fade-up" data-lang="welcomeTitle">
+            Bienvenido a TU Finca Ideal
+        </h2>
+        <p class="text-[#F8F9FA] text-lg max-w-2xl mx-auto font-roboto mb-8" data-aos="fade-up" data-aos-delay="100" data-lang="welcomeText">
+            Escapa de la rutina y vive momentos inolvidables rodeado de naturaleza, confort y exclusividad. 
+            Encuentra la finca perfecta para tus vacaciones o eventos especiales.
+        </p>
+        <button 
+            id="boton-regiones"
+            onclick="window.location.href='/regiones'"
+            class="group relative bg-gradient-to-r from-[#8adf4f] to-[#6fb53f] text-black font-bold font-roboto text-xl px-12 py-6 rounded-full 
+                shadow-[0_10px_30px_rgba(138,223,79,0.4)] border-2 border-[#A5EC60] 
+                hover:shadow-[0_15px_40px_rgba(138,223,79,0.6)] hover:scale-105 hover:-translate-y-1
+                transition-all duration-300 ease-out
+                overflow-hidden"
+            data-aos="zoom-in" 
+            data-aos-delay="200">
+            <span class="relative z-10 flex items-center gap-3" data-lang="ctaButton">
+                <span class="text-2xl">🌿</span>
+                <span>Descubre tu destino</span>
+                <span class="material-symbols-outlined group-hover:translate-x-1 transition-transform">arrow_forward</span>
+            </span>
+            <!-- Efecto de brillo animado -->
+            <div class="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-700"></div>
+        </button>
+    </section>
+
+
+
+    <!-- FOOTER -->
+    <footer class="bg-[#000A04] text-[#A5EC60] text-center p-6 mt-8 border-t border-[#2a2c26]">
+        <p class="font-roboto" data-lang="footer">© 2025 MiFincaIdeal. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- Botón Flotante de WhatsApp -->
+    <a href="https://wa.me/573001234567?text=Hola,%20estoy%20interesado%20en%20alquilar%20una%20finca" 
+       class="whatsapp-float" 
+       target="_blank"
+       aria-label="Contactar por WhatsApp">
+        <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+            <path d="M16 0c-8.837 0-16 7.163-16 16 0 2.825 0.737 5.607 2.137 8.048l-2.137 7.952 8.15-2.098c2.337 1.275 4.981 1.948 7.85 1.948 8.837 0 16-7.163 16-16s-7.163-16-16-16zM16 29.25c-2.456 0-4.856-0.656-6.962-1.906l-0.5-0.294-5.194 1.338 1.369-5.094-0.319-0.519c-1.369-2.219-2.094-4.781-2.094-7.4 0-7.719 6.281-14 14-14s14 6.281 14 14-6.281 14-14 14zM23.238 19.637c-0.394-0.2-2.337-1.156-2.7-1.288-0.363-0.131-0.625-0.2-0.888 0.2s-1.025 1.288-1.256 1.556c-0.231 0.269-0.463 0.3-0.856 0.1s-1.669-0.613-3.175-1.963c-1.175-1.050-1.969-2.35-2.2-2.744s-0.025-0.613 0.175-0.813c0.181-0.175 0.394-0.463 0.594-0.694s0.263-0.394 0.394-0.663c0.131-0.269 0.069-0.5-0.031-0.7s-0.888-2.137-1.219-2.925c-0.319-0.769-0.644-0.663-0.888-0.675-0.231-0.012-0.494-0.012-0.756-0.012s-0.688 0.1-1.050 0.5-1.375 1.344-1.375 3.275 1.406 3.8 1.606 4.063c0.2 0.269 2.825 4.319 6.85 6.056 0.956 0.413 1.706 0.663 2.288 0.85 0.969 0.306 1.85 0.263 2.544 0.156 0.775-0.113 2.387-0.975 2.719-1.919s0.331-1.756 0.231-1.919c-0.1-0.15-0.363-0.244-0.756-0.444z"/>
+        </svg>
+    </a>
+
+    <!-- SwiperJS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    
+    <!-- AOS - Animate On Scroll -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <script>
+        // Inicializar AOS
+        AOS.init({
+            duration: 800,
+            easing: 'ease-in-out',
+            once: true,
+            offset: 100
+        });
+
+        // Sistema de traducción
+        const translations = {
+            es: {
+                heroTitle: "Tu Escape Perfecto",
+                heroSubtitle: "Naturaleza • Confort • Exclusividad",
+                welcomeTitle: "Bienvenido a TU Finca Ideal",
+                welcomeText: "Escapa de la rutina y vive momentos inolvidables rodeado de naturaleza, confort y exclusividad. Encuentra la finca perfecta para tus vacaciones o eventos especiales.",
+                ctaButton: "Descubre tu destino",
+                footer: "© 2025 MiFincaIdeal. Todos los derechos reservados.",
+                whatsappMessage: "Hola,%20estoy%20interesado%20en%20alquilar%20una%20finca"
+            },
+            en: {
+                heroTitle: "Your Perfect Escape",
+                heroSubtitle: "Nature • Comfort • Exclusivity",
+                welcomeTitle: "Welcome to YOUR Ideal Farm",
+                welcomeText: "Escape from routine and live unforgettable moments surrounded by nature, comfort and exclusivity. Find the perfect farm for your vacation or special events.",
+                ctaButton: "Discover your destination",
+                footer: "© 2025 MiFincaIdeal. All rights reserved.",
+                whatsappMessage: "Hello,%20I'm%20interested%20in%20renting%20a%20farm"
+            }
+        };
+
+        let currentLang = 'es';
+
+        function changeLanguage() {
+            currentLang = currentLang === 'es' ? 'en' : 'es';
+            const t = translations[currentLang];
+            
+            // Actualizar todos los elementos con data-lang
+            document.querySelectorAll('[data-lang]').forEach(element => {
+                const key = element.getAttribute('data-lang');
+                if (t[key]) {
+                    if (element.tagName === 'SPAN' && element.closest('button') && key === 'ctaButton') {
+                        // Para el botón CTA, solo actualizar el texto central
+                        const textSpan = element.querySelector('span:nth-child(2)');
+                        if (textSpan) {
+                            textSpan.textContent = t[key];
+                        }
+                    } else if (element.tagName === 'BUTTON' || element.tagName === 'P' || element.tagName === 'H1' || element.tagName === 'H2' || element.tagName === 'H3') {
+                        element.textContent = t[key];
+                    } else {
+                        element.innerHTML = t[key];
+                    }
+                }
+            });
+            
+            // Actualizar link de WhatsApp
+            document.querySelector('.whatsapp-float').href = `https://wa.me/573001234567?text=${t.whatsappMessage}`;
+            
+            // Actualizar idioma en HTML
+            document.documentElement.lang = currentLang;
+        }
+
+        // Función para scroll suave al destino
+        function scrollToDestinations() {
+            // Por ahora redirige, pero puedes cambiar por scroll si agregas secciones
+            window.location.href = 'regione.html';
+        }
+
+        // Lazy loading adicional para imágenes
+        if ('loading' in HTMLImageElement.prototype) {
+            const images = document.querySelectorAll('img[loading="lazy"]');
+            images.forEach(img => {
+                img.src = img.src;
+            });
+        } else {
+            // Fallback para navegadores que no soportan lazy loading
+            const script = document.createElement('script');
+            script.src = 'https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.3.2/lazysizes.min.js';
+            document.body.appendChild(script);
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,51 @@
+[
+  {
+    "nombre": "BARBOSA",
+    "descripcion": "Disfruta de la tranquilidad y naturaleza de este municipio.",
+    "imagen": "/static/Fotos/minucipios/Barbosa.jpg",
+    "region": "Norte"
+  },
+  {
+    "nombre": "GIRARDOTA",
+    "descripcion": "Relájate en un entorno natural y exclusivo.",
+    "imagen": "/static/Fotos/minucipios/Girardota.jpg",
+    "region": "Norte"
+  },
+  {
+    "nombre": "GUATAPE",
+    "descripcion": "Relájate en un entorno natural y exclusivo.",
+    "imagen": "/static/Fotos/minucipios/Guatape.jpg",
+    "region": "Norte"
+  },
+  {
+    "nombre": "SAN JERONIMO",
+    "descripcion": "Relájate en un entorno natural y exclusivo.",
+    "imagen": "/static/Fotos/minucipios/San jeronimo.jpg",
+    "region": "Occidente"
+  },
+  {
+    "nombre": "EBEJICO",
+    "descripcion": "Relájate en un entorno natural y exclusivo.",
+    "imagen": "/static/Fotos/minucipios/Ebejico.jpg",
+    "region": "Occidente"
+  },
+  {
+    "nombre": "SANTA FE",
+    "descripcion": "Relájate en un entorno natural y exclusivo.",
+    "imagen": "/static/Fotos/minucipios/Santa Fe.jpg",
+    "region": "Occidente"
+  },
+  {
+    "nombre": "SOPETRAN",
+    "descripcion": "Relájate en un entorno natural y exclusivo.",
+    "imagen": "/static/Fotos/minucipios/Sopetran.jpg",
+    "region": "Oriente"
+  },
+  {
+    "nombre": "COCORNA",
+    "descripcion": "Relájate en un entorno natural y exclusivo.",
+    "imagen": "/static/Fotos/minucipios/cocorna.jpg",
+    "region": "Oriente"
+  }
+]
+

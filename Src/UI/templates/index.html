@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Municipios - Fincas</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Roboto:wght@400;500;700&family=Material+Symbols+Outlined&display=swap" rel="stylesheet" />
+  
+  <style>
+    /* Estilos para que Swiper funcione correctamente */
+    .swiper-slide {
+      width: 320px;
+      height: 650px;
+    }
+    
+    @media (min-width: 768px) {
+      .swiper-slide {
+        width: 400px;
+      }
+    }
+  </style>
+</head>
+
+<body class="bg-[#0c0f09] min-h-screen flex flex-col items-center text-white overflow-x-hidden" style="font-family: 'Roboto', sans-serif;">
+
+  <!-- Header -->
+  <header class="fixed top-0 left-0 w-full flex justify-between items-center px-6 py-2 bg-[#0c0f09] z-20">
+    <button onclick="history.back()" class="md:hidden text-3xl text-[#C5C8BA]">
+      <span class="material-symbols-outlined">arrow_back</span>
+    </button>
+    
+    <div class="flex items-center space-x-3">
+      <button class="flex items-center justify-center p-2 bg-transparent rounded hover:bg-white/10 transition-all" aria-label="Cambiar idioma">
+        <span class="material-symbols-outlined text-2xl text-[#C5C8BA]">language</span>
+      </button>
+      <img src="{{ url_for('static', filename='logo.svg') }}" alt="Logo" class="w-14 h-14">
+    </div>
+  </header>
+
+  <!-- Encabezado dinámico -->
+  <h2 id="encabezado" class="text-5xl font-bold mb-0 text-[#A5EC60] mt-24 transition-all duration-300 text-center" style="font-family: 'Merriweather', serif;">
+    Cargando...
+  </h2>
+
+  <!-- Carrusel de municipios -->
+  <div class="swiper mySwiper w-[90%] max-w-md mb-8 mt-10 mx-auto">
+    <div class="swiper-wrapper"></div>
+  </div>
+
+  <!-- SwiperJS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <script src="{{ url_for('static', filename='frontMunicipios.js') }}"></script>
+
+</body>
+</html>

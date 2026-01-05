@@ -1,0 +1,74 @@
+[
+  {
+    "id": "1",
+    "nombre": "Finca La Bonita",
+    "municipio": "Barbosa",
+    "fotoPrincipal": "fotos_fincas/finca_1_main.jpeg",
+    "precio": 450000000,
+    "capacidad_personas": 8, 
+    "archivoJSON": "fincas/finca_1.json"
+  },
+  {
+    "id": "2",
+    "nombre": "VILLA ELENA",
+    "municipio": "Girardota",
+    "fotoPrincipal": "fotos_fincas/finca_2_main.jpeg",
+    "precio": 450000000,
+    "capacidad_personas": 8, 
+    "archivoJSON": "fincas/finca_2.json"
+  },
+  {
+    "id": "3",
+    "nombre": "LA PERLA",
+    "municipio": "Guatape",
+    "fotoPrincipal": "fotos_fincas/finca_2_main.jpeg",
+    "precio": 450000000,
+    "capacidad_personas": 8, 
+    "archivoJSON": "fincas/finca_2.json"
+  },
+  {
+    "id": "4",
+    "nombre": "LEYENDA DE SAN JOSE",
+    "municipio": "San jeronimo",
+    "fotoPrincipal": "fotos_fincas/finca_2_main.jpeg",
+    "precio": 450000000,
+    "capacidad_personas": 8, 
+    "archivoJSON": "fincas/finca_2.json"
+  },
+  {
+    "id": "5",
+    "nombre": "VILLA PAULINA",
+    "municipio": "Ebejico",
+    "fotoPrincipal": "fotos_fincas/finca_2_main.jpeg",
+    "precio": 450000000,
+    "capacidad_personas": 8, 
+    "archivoJSON": "fincas/finca_2.json"
+  },
+  {
+    "id": "6",
+    "nombre": "FINCA SANTA FE",
+    "municipio": "Santa Fe",
+    "fotoPrincipal": "fotos_fincas/finca_2_main.jpeg",
+    "precio": 450000000,
+    "capacidad_personas": 8, 
+    "archivoJSON": "fincas/finca_2.json"
+  },
+  {
+    "id": "7",
+    "nombre": "FINCA LA SOPETRAN",
+    "municipio": "Sopetran",
+    "fotoPrincipal": "fotos_fincas/finca_2_main.jpeg",
+    "precio": 450000000,
+    "capacidad_personas": 8, 
+    "archivoJSON": "fincas/finca_2.json"
+  },
+  {
+    "id": "8",
+    "nombre": "FINCA LA COCORNA",
+    "municipio": "Cocorna",
+    "fotoPrincipal": "fotos_fincas/finca_2_main.jpeg",
+    "precio": 450000000,
+    "capacidad_personas": 8, 
+    "archivoJSON": "fincas/finca_2.json"
+  }
+]

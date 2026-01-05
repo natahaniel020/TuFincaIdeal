@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "nombre": "Norte",
+        "descripcion": "Disfruta de la tranquilidad y naturaleza del norte",
+        "imagen": "/static/Fotos/regiones/norte.jpg",
+        "boton_texto": "Explorar norte"
+    },
+    {
+        "id": 2,
+        "nombre": "Occidente",
+        "descripcion": "Montañas, café y paisajes únicos",
+        "imagen": "/static/Fotos/regiones/occidente.jpg",
+        "boton_texto": "Explorar occidente"
+    },
+    {
+        "id": 3,
+        "nombre": "Oriente",
+        "descripcion": "Clima fresco y vistas espectaculares",
+        "imagen": "/static/Fotos/regiones/oriente.jpg",
+        "boton_texto": "Explorar oriente"
+    }
+]
