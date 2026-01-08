@@ -95,6 +95,18 @@ document.addEventListener('DOMContentLoaded', () => {
       `).join('');
     }
 
+    window.swiper = new Swiper(".mySwiper", {
+    loop: true,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true
+    },
+    autoplay: {
+      delay: 4000,
+      disableOnInteraction: false
+    }
+  });
+
     if (miniCarousel) {
       miniCarousel.innerHTML = finca.fotosGallery.map(foto => `
         <img src="${foto.src}"
@@ -147,17 +159,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // ===============================
   // INIT
   // ===============================
-  window.swiper = new Swiper(".mySwiper", {
-    loop: true,
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true
-    },
-    autoplay: {
-      delay: 4000,
-      disableOnInteraction: false
-    }
-  });
+  
 
   cargarPerfil();
 });
