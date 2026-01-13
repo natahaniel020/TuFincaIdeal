@@ -3,21 +3,21 @@
         "id": 1,
         "nombre": "Norte",
         "descripcion": "Disfruta de la tranquilidad y naturaleza del norte",
-        "imagen": "/static/Fotos/regiones/norte.jpg",
+        "imagen": "https://res.cloudinary.com/duubnwryp/image/upload/v1768190137/norte_t9gaek.jpg",
         "boton_texto": "Explorar norte"
     },
     {
         "id": 2,
         "nombre": "Occidente",
         "descripcion": "Montañas, café y paisajes únicos",
-        "imagen": "/static/Fotos/regiones/occidente.jpg",
+        "imagen": "https://res.cloudinary.com/duubnwryp/image/upload/v1768190068/occidente_ij73bv.jpg",
         "boton_texto": "Explorar occidente"
     },
     {
         "id": 3,
         "nombre": "Oriente",
         "descripcion": "Clima fresco y vistas espectaculares",
-        "imagen": "/static/Fotos/regiones/oriente.jpg",
+        "imagen": "https://res.cloudinary.com/duubnwryp/image/upload/v1768190110/oriente_ovyrot.jpg",
         "boton_texto": "Explorar oriente"
     }
 ]

@@ -3,7 +3,7 @@
     "id": "1",
     "nombre": "Finca La Bonita",
     "municipio": "Barbosa",
-    "fotoPrincipal": "fotos_fincas/finca_1_main.jpeg",
+    "fotoPrincipal": "https://res.cloudinary.com/duubnwryp/image/upload/v1768190111/prin1_ejhzve.jpg",
     "precio": 450000000,
     "capacidad_personas": 8, 
     "archivoJSON": "fincas/finca_1.json"
@@ -12,7 +12,7 @@
     "id": "2",
     "nombre": "VILLA ELENA",
     "municipio": "Girardota",
-    "fotoPrincipal": "fotos_fincas/finca_2_main.jpeg",
+    "fotoPrincipal": "https://res.cloudinary.com/duubnwryp/image/upload/v1768190123/home2_bdinz9.jpg",
     "precio": 450000000,
     "capacidad_personas": 8, 
     "archivoJSON": "fincas/finca_2.json"
@@ -21,7 +21,7 @@
     "id": "3",
     "nombre": "LA PERLA",
     "municipio": "Guatape",
-    "fotoPrincipal": "fotos_fincas/finca_2_main.jpeg",
+    "fotoPrincipal": "https://res.cloudinary.com/duubnwryp/image/upload/v1768190059/home1_jvx14r.jpg",
     "precio": 450000000,
     "capacidad_personas": 8, 
     "archivoJSON": "fincas/finca_2.json"
@@ -30,7 +30,7 @@
     "id": "4",
     "nombre": "LEYENDA DE SAN JOSE",
     "municipio": "San jeronimo",
-    "fotoPrincipal": "fotos_fincas/finca_2_main.jpeg",
+    "fotoPrincipal": "https://res.cloudinary.com/duubnwryp/image/upload/v1768190040/CODIGO_12_2_dgp99d.jpg",
     "precio": 450000000,
     "capacidad_personas": 8, 
     "archivoJSON": "fincas/finca_2.json"
@@ -39,7 +39,7 @@
     "id": "5",
     "nombre": "VILLA PAULINA",
     "municipio": "Ebejico",
-    "fotoPrincipal": "fotos_fincas/finca_2_main.jpeg",
+    "fotoPrincipal": "https://res.cloudinary.com/duubnwryp/image/upload/v1768190110/home3_yk2re3.jpg",
     "precio": 450000000,
     "capacidad_personas": 8, 
     "archivoJSON": "fincas/finca_2.json"
@@ -48,7 +48,7 @@
     "id": "6",
     "nombre": "FINCA SANTA FE",
     "municipio": "Santa Fe",
-    "fotoPrincipal": "fotos_fincas/finca_2_main.jpeg",
+    "fotoPrincipal": "https://res.cloudinary.com/duubnwryp/image/upload/v1768190148/home1_kyfsbs.jpg",
     "precio": 450000000,
     "capacidad_personas": 8, 
     "archivoJSON": "fincas/finca_2.json"
@@ -57,7 +57,7 @@
     "id": "7",
     "nombre": "FINCA LA SOPETRAN",
     "municipio": "Sopetran",
-    "fotoPrincipal": "fotos_fincas/finca_2_main.jpeg",
+    "fotoPrincipal": "https://res.cloudinary.com/duubnwryp/image/upload/v1768190158/home1_jxpc5f.jpg",
     "precio": 450000000,
     "capacidad_personas": 8, 
     "archivoJSON": "fincas/finca_2.json"
@@ -66,7 +66,7 @@
     "id": "8",
     "nombre": "FINCA LA COCORNA",
     "municipio": "Cocorna",
-    "fotoPrincipal": "fotos_fincas/finca_2_main.jpeg",
+    "fotoPrincipal": "https://res.cloudinary.com/duubnwryp/image/upload/v1768190045/home1_myxs0k.jpg",
     "precio": 450000000,
     "capacidad_personas": 8, 
     "archivoJSON": "fincas/finca_2.json"

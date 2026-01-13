@@ -19,42 +19,42 @@
     "fotosPrincipales": [
       {
         "id": 1,
-        "src": "/static/Fotos/fincas/Barbosa/Finca La Bonita/prin1.jpeg",
+        "src": "https://res.cloudinary.com/duubnwryp/image/upload/v1768190111/prin1_ejhzve.jpg",
         "alt": "Finca 1"
       },
       {
         "id": 2,
-        "src": "/static/Fotos/fincas/Barbosa/Finca La Bonita/prin2.jpeg",
+        "src": "https://res.cloudinary.com/duubnwryp/image/upload/v1768190058/CODIGO_17_4_u8hwrm.jpg",
         "alt": "Finca 1"
       },{
         "id": 3,
-        "src": "/static/Fotos/fincas/Barbosa/Finca La Bonita/prin3.jpeg",
+        "src": "https://res.cloudinary.com/duubnwryp/image/upload/v1768190137/prin3_nahxmx.jpg",
         "alt": "Finca 1"
       }
     ],
     "fotosGallery": [
       {
         "id": 1,
-        "src": "/static/Fotos/fincas/Barbosa/Finca La Bonita/CODIGO 17 (3).jpeg",
+        "src": "https://res.cloudinary.com/duubnwryp/image/upload/v1768190110/prin2_ngpkjo.jpg",
         "alt": "Finca 1"
       },
       {
         "id": 2,
-        "src": "/static/Fotos/fincas/Barbosa/Finca La Bonita/CODIGO 17 (4).jpeg",
+        "src": "https://res.cloudinary.com/duubnwryp/image/upload/v1768190059/CODIGO_17_3_kuxbgh.jpg",
         "alt": "Finca 1"
       },{
         "id": 3,
-        "src": "/static/Fotos/fincas/Barbosa/Finca La Bonita/CODIGO 17 (5).jpeg",
+        "src": "https://res.cloudinary.com/duubnwryp/image/upload/v1768190048/CODIGO_17_5_ew86y2.jpg",
         "alt": "Finca 1"
       },
       {
         "id": 4,
-        "src": "/static/Fotos/fincas/Barbosa/Finca La Bonita/CODIGO 17 (6).jpeg",
+        "src": "https://res.cloudinary.com/duubnwryp/image/upload/v1768190051/CODIGO_17_6_ld1daq.jpg",
         "alt": "Finca 1"
       },
       {
         "id": 5,
-        "src": "/static/Fotos/fincas/Barbosa/Finca La Bonita/CODIGO 17 (7).jpeg",
+        "src": "https://res.cloudinary.com/duubnwryp/image/upload/v1768190111/CODIGO_17_7_ke5p5r.jpg",
         "alt": "Finca 1"
       }
     ]
@@ -79,42 +79,42 @@
     "fotosPrincipales": [
       {
         "id": 1,
-        "src": "/static/Fotos/fincas/Girardo/villa elena/home1.jpeg",
+        "src": "https://res.cloudinary.com/duubnwryp/image/upload/v1768190123/home2_bdinz9.jpg",
         "alt": "Finca 1"
       },
       {
         "id": 2,
-        "src": "/static/Fotos/fincas/Girardo/villa elena/home2.jpeg",
+        "src": "https://res.cloudinary.com/duubnwryp/image/upload/v1768190094/home1_xpmcxs.jpg",
         "alt": "Finca 1"
       },{
         "id": 3,
-        "src": "/static/Fotos/fincas/Girardo/villa elena/home3.jpeg",
+        "src": "https://res.cloudinary.com/duubnwryp/image/upload/v1768190040/home3_jvzygt.jpg",
         "alt": "Finca 1"
       }
     ],
     "fotosGallery": [
       {
         "id": 1,
-        "src": "/static/Fotos/fincas/Girardo/villa elena/CODIGO 18 (1).jpeg",
+        "src": "https://res.cloudinary.com/duubnwryp/image/upload/v1768190137/CODIGO_18_4_tiosrn.jpg",
         "alt": "Finca 1"
       },
       {
         "id": 2,
-        "src": "/static/Fotos/fincas/Girardo/villa elena/CODIGO 18 (2).jpeg",
+        "src": "https://res.cloudinary.com/duubnwryp/image/upload/v1768190094/CODIGO_18_2_ohvtpi.jpg",
         "alt": "Finca 1"
       },{
         "id": 3,
-        "src": "/static/Fotos/fincas/Girardo/villa elena/CODIGO 18 (3).jpeg",
+        "src": "https://res.cloudinary.com/duubnwryp/image/upload/v1768190040/CODIGO_18_hv8uce.jpg",
         "alt": "Finca 1"
       },
       {
         "id": 4,
-        "src": "/static/Fotos/fincas/Girardo/villa elena/CODIGO 18 (4).jpeg",
+        "src": "https://res.cloudinary.com/duubnwryp/image/upload/v1768190081/CODIGO_18_1_sgyag3.jpg",
         "alt": "Finca 1"
       },
       {
         "id": 5,
-        "src": "/static/Fotos/fincas/Girardo/villa elena/CODIGO 18.jpeg",
+        "src": "https://res.cloudinary.com/duubnwryp/image/upload/v1768190040/CODIGO_18_hv8uce.jpg",
         "alt": "Finca 1"
       }
     ]
@@ -139,42 +139,42 @@
     "fotosPrincipales": [
       {
         "id": 1,
-        "src": "/static/Fotos/fincas/Guatape/LA PERLA/home1.jpeg",
+        "src": "https://res.cloudinary.com/duubnwryp/image/upload/v1768190059/home1_jvx14r.jpg",
         "alt": "Finca 1"
       },
       {
         "id": 2,
-        "src": "/static/Fotos/fincas/Guatape/LA PERLA/home2.jpeg",
+        "src": "https://res.cloudinary.com/duubnwryp/image/upload/v1768190095/home2_jlcgim.jpg",
         "alt": "Finca 1"
       },{
         "id": 3,
-        "src": "/static/Fotos/fincas/Guatape/LA PERLA/home3.jpeg",
+        "src": "https://res.cloudinary.com/duubnwryp/image/upload/v1768190095/home3_nwggwl.jpg",
         "alt": "Finca 1"
       }
     ],
     "fotosGallery": [
       {
         "id": 1,
-        "src": "/static/Fotos/fincas/Guatape/LA PERLA/WhatsApp Image 2025-11-07 at 5.27.48 PM (2).jpeg",
+        "src": "https://res.cloudinary.com/duubnwryp/image/upload/v1768190095/WhatsApp_Image_2025-11-07_at_5.27.48_PM_2_wxfg5u.jpg",
         "alt": "Finca 1"
       },
       {
         "id": 2,
-        "src": "/static/Fotos/fincas/Guatape/LA PERLA/WhatsApp Image 2025-11-07 at 5.27.52 PM (2).jpeg",
+        "src": "https://res.cloudinary.com/duubnwryp/image/upload/v1768190059/WhatsApp_Image_2025-11-07_at_5.27.52_PM_2_f1m2gp.jpg",
         "alt": "Finca 1"
       },{
         "id": 3,
-        "src": "/static/Fotos/fincas/Guatape/LA PERLA/WhatsApp Image 2025-11-07 at 5.27.53 PM.jpeg",
+        "src": "https://res.cloudinary.com/duubnwryp/image/upload/v1768190123/WhatsApp_Image_2025-11-07_at_5.27.53_PM_uht64m.jpg",
         "alt": "Finca 1"
       },
       {
         "id": 4,
-        "src": "/static/Fotos/fincas/Guatape/LA PERLA/WhatsApp Image 2025-11-07 at 5.27.54 PM (2).jpeg",
+        "src": "https://res.cloudinary.com/duubnwryp/image/upload/v1768190138/WhatsApp_Image_2025-11-07_at_5.27.56_PM_1_aib7n3.jpg",
         "alt": "Finca 1"
       },
       {
         "id": 5,
-        "src": "/static/Fotos/fincas/Guatape/LA PERLA/WhatsApp Image 2025-11-07 at 5.27.56 PM (2).jpeg",
+        "src": "https://res.cloudinary.com/duubnwryp/image/upload/v1768190059/WhatsApp_Image_2025-11-07_at_5.27.52_PM_2_f1m2gp.jpg",
         "alt": "Finca 1"
       }
     ]
@@ -199,42 +199,42 @@
     "fotosPrincipales": [
       {
         "id": 1,
-        "src": "/static/Fotos/fincas/San jeronimo/Villa paulina/home1.jpeg",
+        "src": "https://res.cloudinary.com/duubnwryp/image/upload/v1768190041/home1_e7tvpr.jpg",
         "alt": "Finca 1"
       },
       {
         "id": 2,
-        "src": "/static/Fotos/fincas/San jeronimo/Villa paulina/home2.jpeg",
+        "src": "https://res.cloudinary.com/duubnwryp/image/upload/v1768190045/home2_p24trj.jpg",
         "alt": "Finca 1"
       },{
         "id": 3,
-        "src": "/static/Fotos/fincas/San jeronimo/Villa paulina/home2.jpeg",
+        "src": "https://res.cloudinary.com/duubnwryp/image/upload/v1768190080/home3_bk3qc5.jpg",
         "alt": "Finca 1"
       }
     ],
     "fotosGallery": [
       {
         "id": 1,
-        "src": "/static/Fotos/fincas/San jeronimo/Villa paulina/CODIGO 12 (1).jpeg",
+        "src": "https://res.cloudinary.com/duubnwryp/image/upload/v1768190040/CODIGO_12_1_g4wjoz.jpg",
         "alt": "Finca 1"
       },
       {
         "id": 2,
-        "src": "/static/Fotos/fincas/San jeronimo/Villa paulina/CODIGO 12 (2).jpeg",
+        "src": "https://res.cloudinary.com/duubnwryp/image/upload/v1768190040/CODIGO_12_eifde2.jpg",
         "alt": "Finca 1"
       },{
         "id": 3,
-        "src": "/static/Fotos/fincas/San jeronimo/Villa paulina/CODIGO 12 (3).jpeg",
+        "src": "https://res.cloudinary.com/duubnwryp/image/upload/v1768190147/CODIGO_12_3_btcytj.jpg",
         "alt": "Finca 1"
       },
       {
         "id": 4,
-        "src": "/static/Fotos/fincas/San jeronimo/Villa paulina/CODIGO 12 (4).jpeg",
+        "src": "https://res.cloudinary.com/duubnwryp/image/upload/v1768190148/CODIGO_12_4_gkzl7g.jpg",
         "alt": "Finca 1"
       },
       {
         "id": 5,
-        "src": "/static/Fotos/fincas/San jeronimo/Villa paulina/CODIGO 12.jpeg",
+        "src": "https://res.cloudinary.com/duubnwryp/image/upload/v1768190040/CODIGO_12_eifde2.jpg",
         "alt": "Finca 1"
       }
     ]
@@ -259,42 +259,42 @@
     "fotosPrincipales": [
       {
         "id": 1,
-        "src": "/static/Fotos/fincas/Ebejico/villa paulina/home3.jpeg",
+        "src": "https://res.cloudinary.com/duubnwryp/image/upload/v1768190110/home3_yk2re3.jpg",
         "alt": "Finca 1"
       },
       {
         "id": 2,
-        "src": "/static/Fotos/fincas/Ebejico/villa paulina/home2.jpeg",
+        "src": "https://res.cloudinary.com/duubnwryp/image/upload/v1768190123/home2_u4cm7r.jpg",
         "alt": "Finca 1"
       },{
         "id": 3,
-        "src": "/static/Fotos/fincas/Ebejico/villa paulina/home1.jpeg",
+        "src": "https://res.cloudinary.com/duubnwryp/image/upload/v1768190124/home1_ypbeu3.jpg",
         "alt": "Finca 1"
       }
     ],
     "fotosGallery": [
       {
         "id": 1,
-        "src": "/static/Fotos/fincas/Ebejico/villa paulina/CODIGO 5 (1).jpeg",
+        "src": "https://res.cloudinary.com/duubnwryp/image/upload/v1768190080/CODIGO_5_3_aalgc7.jpg",
         "alt": "Finca 1"
       },
       {
         "id": 2,
-        "src": "/static/Fotos/fincas/Ebejico/villa paulina/CODIGO 5 (2).jpeg",
+        "src": "https://res.cloudinary.com/duubnwryp/image/upload/v1768190050/CODIGO_5_1_co1z7x.jpg",
         "alt": "Finca 1"
       },{
         "id": 3,
-        "src": "/static/Fotos/fincas/Ebejico/villa paulina/CODIGO 5 (3).jpeg",
+        "src": "https://res.cloudinary.com/duubnwryp/image/upload/v1768190137/CODIGO_5_4_nltecj.jpg",
         "alt": "Finca 1"
       },
       {
         "id": 4,
-        "src": "/static/Fotos/fincas/Ebejico/villa paulina/CODIGO 5 (4).jpeg",
+        "src": "https://res.cloudinary.com/duubnwryp/image/upload/v1768190050/CODIGO_5_1_co1z7x.jpg",
         "alt": "Finca 1"
       },
       {
         "id": 5,
-        "src": "/static/Fotos/fincas/Ebejico/villa paulina/CODIGO 5.jpeg",
+        "src": "https://res.cloudinary.com/duubnwryp/image/upload/v1768190080/CODIGO_5_cdn6br.jpg",
         "alt": "Finca 1"
       }
     ]
@@ -319,53 +319,53 @@
     "fotosPrincipales": [
       {
         "id": 1,
-        "src": "/static/Fotos/fincas/Santa fe/finca santa fe/home1.jpeg",
+        "src": "https://res.cloudinary.com/duubnwryp/image/upload/v1768190148/home1_kyfsbs.jpg",
         "alt": "Finca 1"
       },
       {
         "id": 2,
-        "src": "/static/Fotos/fincas/Santa fe/finca santa fe/home2.jpeg",
+        "src": "https://res.cloudinary.com/duubnwryp/image/upload/v1768190148/home2_kkm75h.jpg",
         "alt": "Finca 1"
       },{
         "id": 3,
-        "src": "/static/Fotos/fincas/Santa fe/finca santa fe/home3.jpeg",
+        "src": "https://res.cloudinary.com/duubnwryp/image/upload/v1768190136/home3_lkchqd.jpg",
         "alt": "Finca 1"
       }
     ],
     "fotosGallery": [
       {
         "id": 1,
-        "src": "/static/Fotos/fincas/Santa fe/finca santa fe/Gallery1.jpeg",
+        "src": "https://res.cloudinary.com/duubnwryp/image/upload/v1768190124/Gallery1_hlhxav.jpg",
         "alt": "Finca 1"
       },
       {
         "id": 2,
-        "src": "/static/Fotos/fincas/Santa fe/finca santa fe/Gallery2.jpeg",
+        "src": "https://res.cloudinary.com/duubnwryp/image/upload/v1768190124/Gallery4_uj0kyr.jpg",
         "alt": "Finca 1"
       },{
         "id": 3,
-        "src": "/static/Fotos/fincas/Santa fe/finca santa fe/Gallery3.jpeg",
+        "src": "https://res.cloudinary.com/duubnwryp/image/upload/v1768190080/Gallery5_o99un3.jpg",
         "alt": "Finca 1"
       },
       {
         "id": 4,
-        "src": "/static/Fotos/fincas/Santa fe/finca santa fe/Gallery4.jpeg",
+        "src": "https://res.cloudinary.com/duubnwryp/image/upload/v1768190080/Gallery2_ni04rw.jpg",
         "alt": "Finca 1"
       },
       {
         "id": 5,
-        "src": "/static/Fotos/fincas/Santa fe/finca santa fe/Gallery5.jpeg",
+        "src": "https://res.cloudinary.com/duubnwryp/image/upload/v1768190079/Gallery3_yum0ds.jpg",
         "alt": "Finca 1"
       }
     ]
   },
   "7": {
-    "nombre": "Finca El Paraíso",
+    "nombre": "La sopetran",
     "precioPorNoche": 250000,
     "moneda": "COP",
     "capacidad": 8,
     "ubicacion": {
-      "ciudad": "Guatapé",
+      "ciudad": "Sopetran",
       "departamento": "Antioquia",
       "descripcion": "Cerca del embalse"
     },
@@ -379,42 +379,42 @@
     "fotosPrincipales": [
       {
         "id": 1,
-        "src": "/static/Fotos/fincas/Sopetran/La sopetran/home1.jpeg",
+        "src": "https://res.cloudinary.com/duubnwryp/image/upload/v1768190158/home1_jxpc5f.jpg",
         "alt": "Finca 1"
       },
       {
         "id": 2,
-        "src": "/static/Fotos/fincas/Sopetran/La sopetran/home2.jpeg",
+        "src": "https://res.cloudinary.com/duubnwryp/image/upload/v1768190159/home2_zxjoxd.jpg",
         "alt": "Finca 1"
       },{
         "id": 3,
-        "src": "/static/Fotos/fincas/Sopetran/La sopetran/home3.jpeg",
+        "src": "https://res.cloudinary.com/duubnwryp/image/upload/v1768190161/WhatsApp_Image_2025-11-12_at_5.16.17_PM_3_mjmd7z.jpg",
         "alt": "Finca 1"
       }
     ],
     "fotosGallery": [
       {
         "id": 1,
-        "src": "/static/Fotos/fincas/Sopetran/La sopetran/WhatsApp Image 2025-11-12 at 5.16.15 PM (1).jpeg",
+        "src": "https://res.cloudinary.com/duubnwryp/image/upload/v1768190158/home3_kiktlk.jpg",
         "alt": "Finca 1"
       },
       {
         "id": 2,
-        "src": "/static/Fotos/fincas/Sopetran/La sopetran/WhatsApp Image 2025-11-12 at 5.16.16 PM (2).jpeg",
+        "src": "https://res.cloudinary.com/duubnwryp/image/upload/v1768190158/WhatsApp_Image_2025-11-12_at_5.16.15_PM_1_qphgnd.jpg",
         "alt": "Finca 1"
       },{
         "id": 3,
-        "src": "/static/Fotos/fincas/Sopetran/La sopetran/WhatsApp Image 2025-11-12 at 5.16.17 PM (3).jpeg",
+        "src": "https://res.cloudinary.com/duubnwryp/image/upload/v1768190158/WhatsApp_Image_2025-11-12_at_5.16.18_PM_5_d96zdc.jpg",
         "alt": "Finca 1"
       },
       {
         "id": 4,
-        "src": "/static/Fotos/fincas/Sopetran/La sopetran/WhatsApp Image 2025-11-12 at 5.16.18 PM (4).jpeg",
+        "src": "https://res.cloudinary.com/duubnwryp/image/upload/v1768190164/WhatsApp_Image_2025-11-12_at_5.16.16_PM_2_wkp9st.jpg",
         "alt": "Finca 1"
       },
       {
         "id": 5,
-        "src": "/static/Fotos/fincas/Sopetran/La sopetran/WhatsApp Image 2025-11-12 at 5.16.18 PM (5).jpeg",
+        "src": "https://res.cloudinary.com/duubnwryp/image/upload/v1768190158/home3_kiktlk.jpg",
         "alt": "Finca 1"
       }
     ]
@@ -439,42 +439,42 @@
     "fotosPrincipales": [
       {
         "id": 1,
-        "src": "/static/Fotos/fincas/cocorna/finca la cocorna/home1.jpeg",
+        "src": "https://res.cloudinary.com/duubnwryp/image/upload/v1768190045/home1_myxs0k.jpg",
         "alt": "Finca 1"
       },
       {
         "id": 2,
-        "src": "/static/Fotos/fincas/cocorna/finca la cocorna/home2.jpeg",
+        "src": "https://res.cloudinary.com/duubnwryp/image/upload/v1768190059/home2_ipv4yy.jpg",
         "alt": "Finca 1"
       },{
         "id": 3,
-        "src": "/static/Fotos/fincas/cocorna/finca la cocorna/home3.jpeg",
+        "src": "https://res.cloudinary.com/duubnwryp/image/upload/v1768190081/home3_uc2aqa.jpg",
         "alt": "Finca 1"
       }
     ],
     "fotosGallery": [
       {
         "id": 1,
-        "src": "/static/Fotos/fincas/cocorna/finca la cocorna/Gallery1.jpeg",
+        "src": "https://res.cloudinary.com/duubnwryp/image/upload/v1768190068/Gallery4_v7gbnx.jpg",
         "alt": "Finca 1"
       },
       {
         "id": 2,
-        "src": "/static/Fotos/fincas/cocorna/finca la cocorna/Gallery2.jpeg",
+        "src": "https://res.cloudinary.com/duubnwryp/image/upload/v1768190067/Gallery1_fn5utu.jpg",
         "alt": "Finca 1"
       },{
         "id": 3,
-        "src": "/static/Fotos/fincas/cocorna/finca la cocorna/Gallery3.jpeg",
+        "src": "https://res.cloudinary.com/duubnwryp/image/upload/v1768190069/Gallery2_binb3l.jpg",
         "alt": "Finca 1"
       },
       {
         "id": 4,
-        "src": "/static/Fotos/fincas/cocorna/finca la cocorna/Gallery4.jpeg",
+        "src": "https://res.cloudinary.com/duubnwryp/image/upload/v1768190053/Gallery3_ndvebo.jpg",
         "alt": "Finca 1"
       },
       {
         "id": 5,
-        "src": "/static/Fotos/fincas/cocorna/finca la cocorna/Gallery1.jpeg",
+        "src": "https://res.cloudinary.com/duubnwryp/image/upload/v1768190069/Gallery2_binb3l.jpg",
         "alt": "Finca 1"
       }
     ]

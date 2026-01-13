@@ -2,49 +2,49 @@
   {
     "nombre": "BARBOSA",
     "descripcion": "Disfruta de la tranquilidad y naturaleza de este municipio.",
-    "imagen": "/static/Fotos/minucipios/Barbosa.jpg",
+    "imagen": "https://res.cloudinary.com/duubnwryp/image/upload/v1768190095/Barbosa_vmvsyl.jpg",
     "region": "Norte"
   },
   {
     "nombre": "GIRARDOTA",
-    "descripcion": "Relájate en un entorno natural y exclusivo.",
+    "descripcion": "https://res.cloudinary.com/duubnwryp/image/upload/v1768190095/Girardota_owmu6a.jpg",
     "imagen": "/static/Fotos/minucipios/Girardota.jpg",
     "region": "Norte"
   },
   {
     "nombre": "GUATAPE",
     "descripcion": "Relájate en un entorno natural y exclusivo.",
-    "imagen": "/static/Fotos/minucipios/Guatape.jpg",
+    "imagen": "https://res.cloudinary.com/duubnwryp/image/upload/v1768190068/Guatape_et4fhd.jpg",
     "region": "Norte"
   },
   {
     "nombre": "SAN JERONIMO",
     "descripcion": "Relájate en un entorno natural y exclusivo.",
-    "imagen": "/static/Fotos/minucipios/San jeronimo.jpg",
+    "imagen": "https://res.cloudinary.com/duubnwryp/image/upload/v1768190068/San_Jeronimo_ibefhb.jpg",
     "region": "Occidente"
   },
   {
     "nombre": "EBEJICO",
-    "descripcion": "Relájate en un entorno natural y exclusivo.",
+    "descripcion": "https://res.cloudinary.com/duubnwryp/image/upload/v1768190057/Ebejico_fmqx8u.jpg",
     "imagen": "/static/Fotos/minucipios/Ebejico.jpg",
     "region": "Occidente"
   },
   {
     "nombre": "SANTA FE",
     "descripcion": "Relájate en un entorno natural y exclusivo.",
-    "imagen": "/static/Fotos/minucipios/Santa Fe.jpg",
+    "imagen": "https://res.cloudinary.com/duubnwryp/image/upload/v1768190099/Santa_Fe_wjb88h.jpg",
     "region": "Occidente"
   },
   {
     "nombre": "SOPETRAN",
     "descripcion": "Relájate en un entorno natural y exclusivo.",
-    "imagen": "/static/Fotos/minucipios/Sopetran.jpg",
+    "imagen": "https://res.cloudinary.com/duubnwryp/image/upload/v1768190110/Sopetran_t3bg1e.jpg",
     "region": "Oriente"
   },
   {
     "nombre": "COCORNA",
     "descripcion": "Relájate en un entorno natural y exclusivo.",
-    "imagen": "/static/Fotos/minucipios/cocorna.jpg",
+    "imagen": "https://res.cloudinary.com/duubnwryp/image/upload/v1768190051/cocorna_aygm8h.jpg",
     "region": "Oriente"
   }
 ]
