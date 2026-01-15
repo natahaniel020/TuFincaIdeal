@@ -7,8 +7,8 @@
   },
   {
     "nombre": "GIRARDOTA",
-    "descripcion": "https://res.cloudinary.com/duubnwryp/image/upload/v1768190095/Girardota_owmu6a.jpg",
-    "imagen": "/static/Fotos/minucipios/Girardota.jpg",
+    "descripcion": "Relájate en un entorno natural y exclusivo.",
+    "imagen": "https://res.cloudinary.com/duubnwryp/image/upload/v1768190095/Girardota_owmu6a.jpg",
     "region": "Norte"
   },
   {
@@ -25,8 +25,8 @@
   },
   {
     "nombre": "EBEJICO",
-    "descripcion": "https://res.cloudinary.com/duubnwryp/image/upload/v1768190057/Ebejico_fmqx8u.jpg",
-    "imagen": "/static/Fotos/minucipios/Ebejico.jpg",
+    "descripcion": "Relájate en un entorno natural y exclusivo",
+    "imagen": "https://res.cloudinary.com/duubnwryp/image/upload/v1768190057/Ebejico_fmqx8u.jpg",
     "region": "Occidente"
   },
   {

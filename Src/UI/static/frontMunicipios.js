@@ -32,7 +32,7 @@ function initSwiper() {
     },
     autoplay: usarLoop
       ? {
-          delay: 3000,
+          delay: 4500,
           disableOnInteraction: false,
         }
       : false,

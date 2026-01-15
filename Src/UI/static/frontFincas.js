@@ -41,7 +41,7 @@ function renderFinca(finca) {
 
   tarjeta.innerHTML = `
     <img 
-      src="${finca.imagen || 'https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=800&q=80'}"
+      src="${finca.fotoPrincipal || 'https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=800&q=80'}"
       class="w-full h-full object-cover"
       alt="${finca.nombre}"
     >
