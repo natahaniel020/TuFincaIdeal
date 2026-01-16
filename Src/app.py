@@ -1,3 +1,4 @@
+import os
 from flask import Flask, render_template
 from flask_babel import Babel
 # esta es la ruto donde esta el archivo blueprins.
@@ -36,7 +37,8 @@ def home():
 
 # Ejecuta la aplicación Flask.
 if __name__ == "__main__":
-    app.run(debug=True)
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host="0.0.0.0", port=port)
 
 # http://127.0.0.1:5000
 
