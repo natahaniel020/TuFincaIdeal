@@ -1,1 +1,0 @@
-gunicorn src.app:app
