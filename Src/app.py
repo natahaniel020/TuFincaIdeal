@@ -4,7 +4,7 @@ from flask_babel import Babel
 # esta es la ruto donde esta el archivo blueprins.
 from Blueprint.front.Routes import front_bp
 from Blueprint.api.MunicipioRouter import api_municipio
-from Blueprint.api.RegionRouter import api_regiones
+from Blueprint.api.RegionRouter import api_regionescls
 from Blueprint.api.FincasRouter import api_fincas
 from Blueprint.api.PerfilRouter import api_perfil
 
