@@ -4,14 +4,14 @@ from flask_babel import Babel
 # esta es la ruto donde esta el archivo blueprins.
 from Blueprint.front.Routes import front_bp
 from Blueprint.api.MunicipioRouter import api_municipio
-from Blueprint.api.RegionRouter import api_regionescls
+from Blueprint.api.RegionRouter import api_regiones
 from Blueprint.api.FincasRouter import api_fincas
 from Blueprint.api.PerfilRouter import api_perfil
 
 # crea la app y la enlasa a las dos carpetas prinvipales 
 app = Flask(__name__,
-            template_folder="ui/templates", 
-            static_folder="ui/static"
+            template_folder="UI/templates", 
+            static_folder="UI/static"
             )
 
 # Configuración de idiomas
