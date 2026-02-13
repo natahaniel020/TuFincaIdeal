@@ -33,7 +33,7 @@ app.register_blueprint(api_perfil, url_prefix="/api")
 # Entreha el HTML al nevegador
 @app.route("/")
 def home():
-    return render_template("home.html")
+    return "ok"
 
 # AGREGA ESTA RUTA NUEVA:
 @app.route("/health")
