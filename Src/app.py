@@ -35,6 +35,11 @@ app.register_blueprint(api_perfil, url_prefix="/api")
 def home():
     return render_template("home.html")
 
+# AGREGA ESTA RUTA NUEVA:
+@app.route("/health")
+def health():
+    return {"status": "ok"}, 200
+
 # Ejecuta la aplicación Flask.
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
